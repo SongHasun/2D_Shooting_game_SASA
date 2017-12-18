@@ -16,7 +16,7 @@ public class Generade extends Bullet {
         double dx=xf-xi;double dy=yf-yi;
         this.vx=v*dx/Math.sqrt((double)dx*dx+dy*dy);
         this.vy=v*dy/Math.sqrt((double)dx*dx+dy*dy);
-        this.img = new ImageIcon("Resource/wwwwwwwwwwwwwwwgenerade.png");
+        this.img = new ImageIcon("Resource/generade.png");
     }
     public void move() {
         if(arrive)return;//목적지에 도달했다면 멈춘다.
